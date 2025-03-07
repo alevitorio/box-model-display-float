@@ -1,0 +1,198 @@
+/* Reset de margens e paddings para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cor de fundo e tipografia */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container principal que controla a largura do conteúdo */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/04/20/86/1000_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg");
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* Seção Sobre */
+  .about {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/04/20/86/1000_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg");
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .description {
+    max-width: 500px;
+  }
+  
+  .description h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Seção Habilidades */
+  .skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .skill-list {
+    text-align: center;
+  }
+  
+  .skill {
+    display: inline-block;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/04/20/86/1000_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg");
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Seção Projetos */
+  .projects {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    display: inline-block;
+    width: 40%;
+    margin: 10px 2.5%;
+    padding: 20px;
+   background-image: url("https://as1.ftcdn.net/v2/jpg/04/04/20/86/1000_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid orange;
+    margin-bottom: 5rem;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    color: #f4f4f4;
+  
+  }
+  
+  .project p {
+    font-size: 1.1em;
+    color: #f4f4f4;
+  }
+  
+  /* Seção de Contato */
+  .contact {
+    padding: 50px 0;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/04/20/86/1000_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d35400;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
