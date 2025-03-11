@@ -291,4 +291,3 @@ Então, por que não usar **float** e sim **inline-block** na maioria dos casos?
 
 Se você está criando layouts modernos, usar **inline-block** ou **Flexbox** (para layouts mais complexos) é uma escolha melhor. O **float** ainda tem seu lugar, especialmente quando você precisa que os elementos "rodeiem" um ao redor do outro, mas para layouts de colunas simples, **inline-block** é frequentemente a solução mais eficiente.
 
-Se você tiver mais dúvidas ou quiser mais exemplos, é só chamar! 😊
